@@ -1,0 +1,17 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ *, *::before, *::after{
+    box-sizing: inherit;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; 
+    color: white;
+ }
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    filter: drop-shadow(0 0.2rem 0.25rem #000000);
+}
+                
