@@ -13,24 +13,33 @@
 <body>
     <nav>
         <img src="img/netflix_logo.svg" alt="Netflix Logo">
-
-        <select name="language" id="language">
-            <option value="english">English</option>
-            <option value="german">German</option>
-            <option value="french">French</option>
-        </select>
-
-        <button>Sign In</button>
+        <ul>
+            <li>
+                <select name="language" id="language">
+                    <option value="english">English</option>
+                    <option value="german">German</option>
+                    <option value="french">French</option>
+                </select>
+            </li>
+            <li>
+                <button>Sign In</button>
+            </li>
+        </ul>
     </nav>
     
 
     <main>
-        <h1>Unlimited movies, TV shows, and more.</h1>
-        <h2>Watch anywhere. Cancel anytime.</h2>
-        <p>Ready to watch?Enter your email to create or restart your membership.</p>
+        <article>
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <p>Ready to watch?Enter your email to create or restart your membership.</p>
+        </article>
+        <ul>
+            <li><input type="email" id="email" placeholder="Email address"></li>
+            <li><button id="getStart">Get started ></button></li>
+        </ul>
         
-        <input type="email" placeholder="Email address">
-        <button>Get started</button>
+        
 
     </main>
     
